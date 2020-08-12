@@ -1,0 +1,9 @@
+n=int(input())
+L=list(map(int,input().split()))
+L.sort()
+c=[]
+for i in L:
+    if i<max(L) and i!=max(L):
+        c.append(i)
+print(max(c))
+        
