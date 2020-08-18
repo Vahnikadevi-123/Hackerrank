@@ -1,0 +1,27 @@
+n=int(input())
+L=list(map(int,input().split()))
+L=list(set(L))
+L.sort()
+sum=0
+for i in L:
+    sum=sum+i
+print(sum/len(L))
+
+
+#OR
+
+def average(array):
+    
+    L=list(set(arr))
+    L.sort()
+    sum=0
+    for i in L:
+        sum=sum+i
+    result=sum/len(L)
+    return result
+    
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    result = average(arr)
+    print(result)
