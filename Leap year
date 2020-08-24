@@ -1,5 +1,5 @@
-##If the given year is divisible by atleast 4 then it is a LEAP YEAR and 4,100 and 400 the it is a LEAP YEAR and if it is not divisible by even 4 it is not a leap year and 
-   if it divisible by 4 and not divisible by 100 then it is not a leap year.
+##If the given year is divisible by all 4,100 and 400 then it is a LEAP YEAR. If divisible by 4 and 100 and not divisible by 400 then it is not a leap year. If it is divisible 
+  by only 4 and not with 100 and 400 then it is a LEAP YEAR. If it is not divisible by even 4 then it is not a leap year.
 
 
 def is_leap(year):
