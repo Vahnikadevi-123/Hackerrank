@@ -11,8 +11,6 @@ query_name = input()
 for i,j in student_marks.items():
     if i==query_name:
         a=(sum(j)/len(j))
-        print('%.2f'%a)
-             #OR
         print("{0:.2f}".format(a))
 
     
