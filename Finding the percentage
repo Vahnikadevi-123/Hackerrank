@@ -1,3 +1,6 @@
+##To find the percentage/Average for the marks of a given students:
+
+
 n = int(input())
     student_marks = {}
     for _ in range(n):
