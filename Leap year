@@ -15,6 +15,10 @@ year = int(input())
 print(is_leap(year))
 
 
+             *******************
+                    #OR
+             *******************
+
 
 def is_leap(year):
     leap=False
