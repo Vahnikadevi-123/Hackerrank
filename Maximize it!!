@@ -1,0 +1,15 @@
+k,m=map(int,input().split())
+z=[]
+for i in range(k):
+    L=list(map(int,input().split()))
+    z.append(L[1:])
+from itertools import product
+p=list(product(*z))
+sum1=0
+L1=[]
+for i in p:
+    for j in i:
+        sum1+=j**2
+    L1.append(sum1%m)
+    sum1=0
+print(max(L1))
