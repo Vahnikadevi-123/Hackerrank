@@ -1,9 +1,10 @@
+from itertools import product
 k,m=map(int,input().split())
 z=[]
 for i in range(k):
     L=list(map(int,input().split()))
     z.append(L[1:])
-from itertools import product
+
 p=list(product(*z))
 sum1=0
 L1=[]
