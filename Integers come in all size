@@ -1,4 +1,4 @@
-
+##To read four numbers and finding the result: 
 
 
 a=int(input())
