@@ -11,10 +11,10 @@ for i in range(N):
         L.append(int(x[1]))
     if command=="sort":
         L.sort()
-        if command=="pop":
-            if len(L)!=0:
-                L.pop()
-        if command=="reverse":
-            L.reverse()
-        if command=="print":
-            print(L)
+    if command=="pop":
+        if len(L)!=0:
+            L.pop()
+    if command=="reverse":
+        L.reverse()
+    if command=="print":
+        print(L)
