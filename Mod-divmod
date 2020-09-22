@@ -1,4 +1,8 @@
-
+Example ---> 170
+17
+10
+0
+(10, 0)
 
 a=int(input())
 b=int(input())
