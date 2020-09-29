@@ -19,3 +19,19 @@ for i in range(len(L)-1,0,-1):
 for j in range(len(L)):
     print(L[j])
 
+
+
+import string
+def print_rangoli(size):
+    S=string.ascii_lowercase
+    L=[]
+    for i in range(n):
+        L.append("-".join(S[n-1:i:-1]+S[i:n]).center(4*n-3,'-'))
+    for i in range(len(L)-1,0,-1):
+        print(L[i])
+    for j in range(len(L)):
+        print(L[j])
+if __name__ == '__main__':
+    n = int(input())
+    print_rangoli(n)
+
