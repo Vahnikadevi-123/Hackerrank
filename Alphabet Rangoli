@@ -19,7 +19,7 @@ for i in range(len(L)-1,0,-1):
 for j in range(len(L)):
     print(L[j])
 
-
+       #OR
 
 import string
 def print_rangoli(size):
