@@ -1,6 +1,7 @@
 ##Example---> VahNika
            output--> vAHnIKA
 
+
 def swap_case(s):
     result=s.swapcase()
     return result
