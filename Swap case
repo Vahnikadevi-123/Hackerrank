@@ -1,7 +1,6 @@
 def swap_case(s):
     result=s.swapcase()
     return result
-
 s = input()
 result = swap_case(s)
 print(result)
