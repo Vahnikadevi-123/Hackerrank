@@ -1,1 +1,13 @@
 ## Performing left shift operation on an array:
+
+n=int(input())
+d=int(input())
+arr=list(map(int,input().split()))
+for i in range(d):
+    nums=arr[0]
+    for j in range(len(arr)-1):
+        arr[j]=arr[j+1]
+    arr[len(arr)-1]=nums
+print(arr)
+        
+
