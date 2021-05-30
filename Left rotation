@@ -1,7 +1,7 @@
 ## Performing left shift operation on an array:
 
-n=int(input())
-d=int(input())
+n=int(input()) #length of the list
+d=int(input()) #no.of left shifts
 arr=list(map(int,input().split()))
 for i in range(d):
     nums=arr[0]
