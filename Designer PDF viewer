@@ -1,2 +1,5 @@
 
-
+h = list(map(int, input().rstrip().split()))
+word = input()
+res=max([h[ord(c)-ord('a')] for c in word]) * len(word)
+print(res)
