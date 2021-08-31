@@ -1,1 +1,9 @@
 
+n=int(input())
+shared=5
+cumulative=0
+for d in range(0,n):
+    liked=shared//2
+    shared=liked*3
+    cumulative=cumulative+liked
+print(cumulative)
